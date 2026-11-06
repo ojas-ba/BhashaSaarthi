@@ -4,7 +4,7 @@ from streamlit.testing.v1 import AppTest
 def test_ui_initial_render_and_empty_input():
     app = AppTest.from_file('app.py').run(timeout=60)
     assert not app.exception
-    assert app.title[0].value == 'Hinglish Smart Writing Assistant'
+    assert app.title[0].value == 'BhashaSaarthi'
     next(b for b in app.button if b.label == 'Convert to Hindi script').click().run(timeout=60)
     assert any('Enter some text' in e.value for e in app.error)
 

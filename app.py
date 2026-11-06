@@ -11,7 +11,7 @@ from src.config import Settings
 from src.models.adapters import get_models
 from src.pipeline import Pipeline
 
-st.set_page_config(page_title='Hinglish Smart Writing Assistant', page_icon='✍️', layout='wide')
+st.set_page_config(page_title='BhashaSaarthi | Hinglish Writing Assistant', page_icon='✍️', layout='wide')
 st.markdown('''<style>
 .stApp {background: #f8faf9;} h1,h2,h3 {color:#133e38;}
 textarea {font-family:'Nirmala UI','Mangal',sans-serif!important;font-size:18px!important;line-height:1.7!important;}
@@ -19,7 +19,8 @@ code {font-family:'Nirmala UI','Mangal',monospace!important;}
 .block-container {padding-top:2.5rem;max-width:1320px;}
 </style>''', unsafe_allow_html=True)
 st.caption('CS3235 · UNDERGRADUATE LLM PROJECT')
-st.title('Hinglish Smart Writing Assistant')
+st.title('BhashaSaarthi')
+st.caption('Hinglish Writing Assistant')
 st.write('Turn Roman Hindi into Devanagari, refine your phrasing, and translate Hindi into English.')
 settings = Settings()
 
@@ -135,8 +136,8 @@ with right:
                     st.code(value, language=None)  # Native display includes a copy button.
                 else:
                     st.info('This stage has not produced a result.')
-        st.download_button('Download UTF-8 text', '\n\n'.join(f'{key}\n{getattr(result, key)}' for key in ['original','converted','improved','english']).encode('utf-8'), 'hinglish-result.txt', 'text/plain; charset=utf-8')
-        st.download_button('Download structured JSON', json.dumps(result.to_dict(), ensure_ascii=False, indent=2).encode('utf-8'), 'hinglish-result.json', 'application/json')
+        st.download_button('Download UTF-8 text', '\n\n'.join(f'{key}\n{getattr(result, key)}' for key in ['original','converted','improved','english']).encode('utf-8'), 'bhashasaarthi-result.txt', 'text/plain; charset=utf-8')
+        st.download_button('Download structured JSON', json.dumps(result.to_dict(), ensure_ascii=False, indent=2).encode('utf-8'), 'bhashasaarthi-result.json', 'application/json')
     else:
         st.info('Your results will appear here. Choose one action or run the complete pipeline.')
         st.markdown('**Natural Hinglish** retains clear English words. **Natural Hindi** asks Param1 for a fluent Hindi rendering; it includes contextual rewriting and translation.')

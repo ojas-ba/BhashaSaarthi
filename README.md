@@ -1,10 +1,12 @@
-# Hinglish Smart Writing Assistant
+# BhashaSaarthi — Hinglish Writing Assistant
 
 **Name:** Ojas B A
 
 **USN:** 1RVU23CSE321
 
-**Repository:** [Mini-Project-WLLM](https://github.com/ojas-ba/Mini-Project-WLLM)
+**Repository:** [BhashaSaarthi](https://github.com/ojas-ba/BhashaSaarthi)
+
+**Project report:** [BhashaSaarthi_Report.docx](BhashaSaarthi_Report.docx)
 
 CS3235 undergraduate mini-project: Roman Hindi → Devanagari, bounded contextual rewriting with BharatGen Param1, and Hindi → English with IndicTrans2. Pretrained inference only; no training, speech, OCR, RAG, accounts or database.
 
@@ -177,11 +179,11 @@ Next improvements after access is resolved: human-review the references, measure
 
 ## GitHub repository
 
-Project repository: [ojas-ba/Mini-Project-WLLM](https://github.com/ojas-ba/Mini-Project-WLLM).
+Project repository: [ojas-ba/BhashaSaarthi](https://github.com/ojas-ba/BhashaSaarthi).
 
 ```powershell
-git clone https://github.com/ojas-ba/Mini-Project-WLLM.git
-cd Mini-Project-WLLM
+git clone https://github.com/ojas-ba/BhashaSaarthi.git
+cd BhashaSaarthi
 ```
 
 Never add `.env`, model weights, caches, virtual environments, authentication files or private inputs. Inspect `git diff --cached` before committing. Model and dataset licenses remain separate from application code.
