@@ -1,0 +1,175 @@
+{
+  "date": "2026-11-06",
+  "worker": {
+    "model": "ai4bharat/indictrans2-indic-en-dist-200M",
+    "revision": "d66a2122ad6d28184f3dc3797b652bd80ae3f65f",
+    "ready": true,
+    "cold_load_seconds": {
+      "trans": 101.63335662700001
+    }
+  },
+  "cases": [
+    {
+      "input": "मुझे घर जाना है।",
+      "result": {
+        "original": "मुझे घर जाना है।",
+        "converted": "",
+        "improved": "",
+        "english": "I have to go home.",
+        "raw_indicxlit": "",
+        "context_corrected": "",
+        "candidates": {},
+        "models_used": [
+          "ai4bharat/indictrans2-indic-en-dist-200M@d66a2122ad6d28184f3dc3797b652bd80ae3f65f (local worker)"
+        ],
+        "timings": {
+          "indictrans2": 1.0189257000165526,
+          "total": 1.0269547999778297
+        },
+        "warnings": [
+          "Deterministic checks cannot guarantee semantic equivalence. Review names, ambiguity, negation, tense and certainty.",
+          "Protected spans are translated around, which can reduce fluency. Latin names remain exact; Hindi names require explicit protection."
+        ],
+        "errors": [],
+        "validation_failures": [],
+        "basic_only": false
+      },
+      "seconds": 1.0271096000215039
+    },
+    {
+      "input": "मैंने अपना असाइनमेंट जमा नहीं किया है।",
+      "result": {
+        "original": "मैंने अपना असाइनमेंट जमा नहीं किया है।",
+        "converted": "",
+        "improved": "",
+        "english": "I have not submitted my assignment.",
+        "raw_indicxlit": "",
+        "context_corrected": "",
+        "candidates": {},
+        "models_used": [
+          "ai4bharat/indictrans2-indic-en-dist-200M@d66a2122ad6d28184f3dc3797b652bd80ae3f65f (local worker)"
+        ],
+        "timings": {
+          "indictrans2": 0.8598764000053052,
+          "total": 0.8607675999810454
+        },
+        "warnings": [
+          "Deterministic checks cannot guarantee semantic equivalence. Review names, ambiguity, negation, tense and certainty.",
+          "Protected spans are translated around, which can reduce fluency. Latin names remain exact; Hindi names require explicit protection."
+        ],
+        "errors": [],
+        "validation_failures": [],
+        "basic_only": false
+      },
+      "seconds": 0.8609780000115279
+    },
+    {
+      "input": "कृपया समय पर आना।",
+      "result": {
+        "original": "कृपया समय पर आना।",
+        "converted": "",
+        "improved": "",
+        "english": "Please come on time.",
+        "raw_indicxlit": "",
+        "context_corrected": "",
+        "candidates": {},
+        "models_used": [
+          "ai4bharat/indictrans2-indic-en-dist-200M@d66a2122ad6d28184f3dc3797b652bd80ae3f65f (local worker)"
+        ],
+        "timings": {
+          "indictrans2": 0.643471799994586,
+          "total": 0.6437926999933552
+        },
+        "warnings": [
+          "Deterministic checks cannot guarantee semantic equivalence. Review names, ambiguity, negation, tense and certainty.",
+          "Protected spans are translated around, which can reduce fluency. Latin names remain exact; Hindi names require explicit protection."
+        ],
+        "errors": [],
+        "validation_failures": [],
+        "basic_only": false
+      },
+      "seconds": 0.644021000014618
+    },
+    {
+      "input": "Naman ने 12 November को रिपोर्ट भेजी थी।",
+      "result": {
+        "original": "Naman ने 12 November को रिपोर्ट भेजी थी।",
+        "converted": "",
+        "improved": "",
+        "english": "Naman The 12 November The report was submitted.",
+        "raw_indicxlit": "",
+        "context_corrected": "",
+        "candidates": {},
+        "models_used": [
+          "ai4bharat/indictrans2-indic-en-dist-200M@d66a2122ad6d28184f3dc3797b652bd80ae3f65f (local worker)"
+        ],
+        "timings": {
+          "indictrans2": 1.164617200003704,
+          "total": 1.1651099000009708
+        },
+        "warnings": [
+          "Deterministic checks cannot guarantee semantic equivalence. Review names, ambiguity, negation, tense and certainty.",
+          "Protected spans are translated around, which can reduce fluency. Latin names remain exact; Hindi names require explicit protection."
+        ],
+        "errors": [],
+        "validation_failures": [],
+        "basic_only": false
+      },
+      "seconds": 1.1653004999971017
+    },
+    {
+      "input": "`print(12)` को मत बदलना।",
+      "result": {
+        "original": "`print(12)` को मत बदलना।",
+        "converted": "",
+        "improved": "",
+        "english": "`print(12)` Don't change it.",
+        "raw_indicxlit": "",
+        "context_corrected": "",
+        "candidates": {},
+        "models_used": [
+          "ai4bharat/indictrans2-indic-en-dist-200M@d66a2122ad6d28184f3dc3797b652bd80ae3f65f (local worker)"
+        ],
+        "timings": {
+          "indictrans2": 0.7165738999901805,
+          "total": 0.7169200999778695
+        },
+        "warnings": [
+          "Deterministic checks cannot guarantee semantic equivalence. Review names, ambiguity, negation, tense and certainty.",
+          "Protected spans are translated around, which can reduce fluency. Latin names remain exact; Hindi names require explicit protection."
+        ],
+        "errors": [],
+        "validation_failures": [],
+        "basic_only": false
+      },
+      "seconds": 0.7171256000001449
+    }
+  ],
+  "note": "Real pretrained model output. Public examples only; semantic adequacy has not been human-reviewed.",
+  "ui_check": {
+    "passed": true,
+    "result": {
+      "original": "मुझे घर जाना है।",
+      "converted": "",
+      "improved": "",
+      "english": "I have to go home.",
+      "raw_indicxlit": "",
+      "context_corrected": "",
+      "candidates": {},
+      "models_used": [
+        "ai4bharat/indictrans2-indic-en-dist-200M@d66a2122ad6d28184f3dc3797b652bd80ae3f65f (local worker)"
+      ],
+      "timings": {
+        "indictrans2": 0.97045990001061,
+        "total": 0.9706491999968421
+      },
+      "warnings": [
+        "Deterministic checks cannot guarantee semantic equivalence. Review names, ambiguity, negation, tense and certainty.",
+        "Protected spans are translated around, which can reduce fluency. Latin names remain exact; Hindi names require explicit protection."
+      ],
+      "errors": [],
+      "validation_failures": [],
+      "basic_only": false
+    }
+  }
+}

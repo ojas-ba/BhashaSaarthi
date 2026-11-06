@@ -1,0 +1,3 @@
+{"id": "D001", "input": "aaj mujhe bazaar jana hai", "notes": "Tune ambiguity prompt only here."}
+{"id": "D002", "input": "कृपया समय पर पहुँचें।", "notes": "Formal rewriting development input."}
+{"id": "D003", "input": "mujhe kal nahi aana", "notes": "Review negation and kal ambiguity."}

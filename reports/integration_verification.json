@@ -1,0 +1,52 @@
+{
+  "date": "2026-11-05",
+  "hardware": {
+    "platform": "Windows-10-10.0.26200-SP0",
+    "python": "3.11.5",
+    "ram_bytes": 16803041280,
+    "available_ram_bytes": 800395264
+  },
+  "calls": [
+    {
+      "model": "IndicXlit",
+      "status": "inference_completed",
+      "output": {
+        "mujhe": [
+          "मुझे",
+          "मूझे",
+          "मुझें",
+          "मुंझे",
+          "मुज़े"
+        ],
+        "nahi": [
+          "नही",
+          "नाही",
+          "नहि",
+          "नाहि",
+          "नहीं"
+        ],
+        "jana": [
+          "जाना",
+          "जना",
+          "जाणा",
+          "जान",
+          "जन"
+        ]
+      },
+      "elapsed_seconds": 0.585092799999984
+    },
+    {
+      "model": "Param1",
+      "status": "blocked",
+      "error": "ModelUnavailable: Insufficient available RAM for unquantized Param1 (estimated 13 GB float32 / 7 GB float16 including overhead). Close applications or use a suitable GPU machine. No substitute output was produced.",
+      "elapsed_seconds": 0.014342399983434007
+    },
+    {
+      "model": "IndicTrans2",
+      "status": "blocked",
+      "error": "ModelUnavailable: Pinned remote model code has not been enabled. Run scripts/inspect_models.py, inspect downloaded Python files, then set ALLOW_REVIEWED_REMOTE_CODE=1.",
+      "elapsed_seconds": 0.01251810000394471
+    }
+  ],
+  "cold_load_seconds": {}
+}

@@ -1,0 +1,533 @@
+[
+  {
+    "id": "E001",
+    "input": "mujhe ghar jana hai",
+    "task": "full",
+    "actual_output": "",
+    "expected": [
+      "मुझे घर जाना है"
+    ],
+    "category": "resource_or_validation",
+    "evidence": [
+      "ModelUnavailable: Insufficient available RAM for unquantized Param1 (estimated 13 GB float32 / 7 GB float16 including overhead). Close applications or use a suitable GPU machine. No substitute output was produced.",
+      "Deterministic checks cannot guarantee semantic equivalence. Review names, ambiguity, negation, tense and certainty."
+    ],
+    "likely_cause": "See recorded errors; string mismatch alone does not establish semantic failure.",
+    "potential_improvement": "Resolve dependencies/access first; human-review actual outputs before prompt changes."
+  },
+  {
+    "id": "E002",
+    "input": "tum kaise ho",
+    "task": "convert",
+    "actual_output": "टम कैसे हो",
+    "expected": [
+      "तुम कैसे हो"
+    ],
+    "category": "reference_mismatch_requires_review",
+    "evidence": [
+      "Deterministic checks cannot guarantee semantic equivalence. Review names, ambiguity, negation, tense and certainty."
+    ],
+    "likely_cause": "See recorded errors; string mismatch alone does not establish semantic failure.",
+    "potential_improvement": "Resolve dependencies/access first; human-review actual outputs before prompt changes."
+  },
+  {
+    "id": "E003",
+    "input": "aaj mausam achha hai",
+    "task": "convert",
+    "actual_output": "आज मौसम अछा है",
+    "expected": [
+      "आज मौसम अच्छा है"
+    ],
+    "category": "reference_mismatch_requires_review",
+    "evidence": [
+      "Deterministic checks cannot guarantee semantic equivalence. Review names, ambiguity, negation, tense and certainty."
+    ],
+    "likely_cause": "See recorded errors; string mismatch alone does not establish semantic failure.",
+    "potential_improvement": "Resolve dependencies/access first; human-review actual outputs before prompt changes."
+  },
+  {
+    "id": "E005",
+    "input": "hum saath chalenge",
+    "task": "full",
+    "actual_output": "",
+    "expected": [
+      "हम साथ चलेंगे"
+    ],
+    "category": "resource_or_validation",
+    "evidence": [
+      "ModelUnavailable: Insufficient available RAM for unquantized Param1 (estimated 13 GB float32 / 7 GB float16 including overhead). Close applications or use a suitable GPU machine. No substitute output was produced.",
+      "Deterministic checks cannot guarantee semantic equivalence. Review names, ambiguity, negation, tense and certainty."
+    ],
+    "likely_cause": "See recorded errors; string mismatch alone does not establish semantic failure.",
+    "potential_improvement": "Resolve dependencies/access first; human-review actual outputs before prompt changes."
+  },
+  {
+    "id": "E006",
+    "input": "paani le aao",
+    "task": "convert",
+    "actual_output": "पानी ले एएओ",
+    "expected": [
+      "पानी ले आओ"
+    ],
+    "category": "reference_mismatch_requires_review",
+    "evidence": [
+      "Deterministic checks cannot guarantee semantic equivalence. Review names, ambiguity, negation, tense and certainty."
+    ],
+    "likely_cause": "See recorded errors; string mismatch alone does not establish semantic failure.",
+    "potential_improvement": "Resolve dependencies/access first; human-review actual outputs before prompt changes."
+  },
+  {
+    "id": "E007",
+    "input": "woh kitab padhta hai",
+    "task": "convert",
+    "actual_output": "वोह किताब पढ़ता है",
+    "expected": [
+      "वह किताब पढ़ता है"
+    ],
+    "category": "reference_mismatch_requires_review",
+    "evidence": [
+      "Deterministic checks cannot guarantee semantic equivalence. Review names, ambiguity, negation, tense and certainty."
+    ],
+    "likely_cause": "See recorded errors; string mismatch alone does not establish semantic failure.",
+    "potential_improvement": "Resolve dependencies/access first; human-review actual outputs before prompt changes."
+  },
+  {
+    "id": "E008",
+    "input": "darwaza band karo",
+    "task": "full",
+    "actual_output": "",
+    "expected": [
+      "दरवाज़ा बंद करो"
+    ],
+    "category": "resource_or_validation",
+    "evidence": [
+      "ModelUnavailable: Insufficient available RAM for unquantized Param1 (estimated 13 GB float32 / 7 GB float16 including overhead). Close applications or use a suitable GPU machine. No substitute output was produced.",
+      "Deterministic checks cannot guarantee semantic equivalence. Review names, ambiguity, negation, tense and certainty."
+    ],
+    "likely_cause": "See recorded errors; string mismatch alone does not establish semantic failure.",
+    "potential_improvement": "Resolve dependencies/access first; human-review actual outputs before prompt changes."
+  },
+  {
+    "id": "E009",
+    "input": "aap kahan rehte hain",
+    "task": "convert",
+    "actual_output": "आप कहन रहते हैं",
+    "expected": [
+      "आप कहाँ रहते हैं"
+    ],
+    "category": "reference_mismatch_requires_review",
+    "evidence": [
+      "Deterministic checks cannot guarantee semantic equivalence. Review names, ambiguity, negation, tense and certainty."
+    ],
+    "likely_cause": "See recorded errors; string mismatch alone does not establish semantic failure.",
+    "potential_improvement": "Resolve dependencies/access first; human-review actual outputs before prompt changes."
+  },
+  {
+    "id": "E010",
+    "input": "mujhe bhook lagi hai",
+    "task": "convert",
+    "actual_output": "मुझे भूक लगी है",
+    "expected": [
+      "मुझे भूख लगी है"
+    ],
+    "category": "reference_mismatch_requires_review",
+    "evidence": [
+      "Deterministic checks cannot guarantee semantic equivalence. Review names, ambiguity, negation, tense and certainty."
+    ],
+    "likely_cause": "See recorded errors; string mismatch alone does not establish semantic failure.",
+    "potential_improvement": "Resolve dependencies/access first; human-review actual outputs before prompt changes."
+  },
+  {
+    "id": "E011",
+    "input": "kal meeting hai please time pe aana",
+    "task": "convert",
+    "actual_output": "kal meeting है please time पीई आना",
+    "expected": [
+      "kal meeting है please time पे आना"
+    ],
+    "category": "reference_mismatch_requires_review",
+    "evidence": [
+      "Deterministic checks cannot guarantee semantic equivalence. Review names, ambiguity, negation, tense and certainty.",
+      "Potentially ambiguous words: kal. kal can mean yesterday/tomorrow; unresolved forms remain unchanged in basic mode."
+    ],
+    "likely_cause": "See recorded errors; string mismatch alone does not establish semantic failure.",
+    "potential_improvement": "Resolve dependencies/access first; human-review actual outputs before prompt changes."
+  },
+  {
+    "id": "E012",
+    "input": "maine assignment submit nahi kiya",
+    "task": "convert",
+    "actual_output": "maine assignment submit nahi kiya",
+    "expected": [
+      "मैंने assignment submit नहीं किया"
+    ],
+    "category": "resource_or_validation",
+    "evidence": [
+      "Deterministic checks cannot guarantee semantic equivalence. Review names, ambiguity, negation, tense and certainty.",
+      "Possible negation loss.",
+      "Validation failed: retained the stage input."
+    ],
+    "likely_cause": "See recorded errors; string mismatch alone does not establish semantic failure.",
+    "potential_improvement": "Resolve dependencies/access first; human-review actual outputs before prompt changes."
+  },
+  {
+    "id": "E015",
+    "input": "online class shuru ho gayi",
+    "task": "convert",
+    "actual_output": "online class शुरू हो गयी",
+    "expected": [
+      "online class शुरू हो गई"
+    ],
+    "category": "reference_mismatch_requires_review",
+    "evidence": [
+      "Deterministic checks cannot guarantee semantic equivalence. Review names, ambiguity, negation, tense and certainty."
+    ],
+    "likely_cause": "See recorded errors; string mismatch alone does not establish semantic failure.",
+    "potential_improvement": "Resolve dependencies/access first; human-review actual outputs before prompt changes."
+  },
+  {
+    "id": "E017",
+    "input": "presentation achhi thi",
+    "task": "convert",
+    "actual_output": "presentation अछी थी",
+    "expected": [
+      "presentation अच्छी थी"
+    ],
+    "category": "reference_mismatch_requires_review",
+    "evidence": [
+      "Deterministic checks cannot guarantee semantic equivalence. Review names, ambiguity, negation, tense and certainty."
+    ],
+    "likely_cause": "See recorded errors; string mismatch alone does not establish semantic failure.",
+    "potential_improvement": "Resolve dependencies/access first; human-review actual outputs before prompt changes."
+  },
+  {
+    "id": "E018",
+    "input": "test ke liye taiyar ho",
+    "task": "convert",
+    "actual_output": "test केई लिये तैयार हो",
+    "expected": [
+      "test के लिए तैयार हो"
+    ],
+    "category": "reference_mismatch_requires_review",
+    "evidence": [
+      "Deterministic checks cannot guarantee semantic equivalence. Review names, ambiguity, negation, tense and certainty."
+    ],
+    "likely_cause": "See recorded errors; string mismatch alone does not establish semantic failure.",
+    "potential_improvement": "Resolve dependencies/access first; human-review actual outputs before prompt changes."
+  },
+  {
+    "id": "E019",
+    "input": "meeting cancel mat karna",
+    "task": "convert",
+    "actual_output": "meeting cancel mat karna",
+    "expected": [
+      "meeting कैंसल मत करना"
+    ],
+    "category": "resource_or_validation",
+    "evidence": [
+      "Deterministic checks cannot guarantee semantic equivalence. Review names, ambiguity, negation, tense and certainty.",
+      "Possible negation loss.",
+      "Validation failed: retained the stage input."
+    ],
+    "likely_cause": "See recorded errors; string mismatch alone does not establish semantic failure.",
+    "potential_improvement": "Resolve dependencies/access first; human-review actual outputs before prompt changes."
+  },
+  {
+    "id": "E021",
+    "input": "muje ghar jaana h",
+    "task": "convert",
+    "actual_output": "मुजे घर जाना ह",
+    "expected": [
+      "मुझे घर जाना है"
+    ],
+    "category": "reference_mismatch_requires_review",
+    "evidence": [
+      "Deterministic checks cannot guarantee semantic equivalence. Review names, ambiguity, negation, tense and certainty."
+    ],
+    "likely_cause": "See recorded errors; string mismatch alone does not establish semantic failure.",
+    "potential_improvement": "Resolve dependencies/access first; human-review actual outputs before prompt changes."
+  },
+  {
+    "id": "E023",
+    "input": "kya kr rhe ho",
+    "task": "convert",
+    "actual_output": "क्या केआर रहे हो",
+    "expected": [
+      "क्या कर रहे हो"
+    ],
+    "category": "reference_mismatch_requires_review",
+    "evidence": [
+      "Deterministic checks cannot guarantee semantic equivalence. Review names, ambiguity, negation, tense and certainty."
+    ],
+    "likely_cause": "See recorded errors; string mismatch alone does not establish semantic failure.",
+    "potential_improvement": "Resolve dependencies/access first; human-review actual outputs before prompt changes."
+  },
+  {
+    "id": "E024",
+    "input": "aap kese hain",
+    "task": "convert",
+    "actual_output": "आप केसे हैं",
+    "expected": [
+      "आप कैसे हैं"
+    ],
+    "category": "reference_mismatch_requires_review",
+    "evidence": [
+      "Deterministic checks cannot guarantee semantic equivalence. Review names, ambiguity, negation, tense and certainty."
+    ],
+    "likely_cause": "See recorded errors; string mismatch alone does not establish semantic failure.",
+    "potential_improvement": "Resolve dependencies/access first; human-review actual outputs before prompt changes."
+  },
+  {
+    "id": "E025",
+    "input": "bohot acha laga",
+    "task": "convert",
+    "actual_output": "बोहोट अचा लगा",
+    "expected": [
+      "बहुत अच्छा लगा"
+    ],
+    "category": "reference_mismatch_requires_review",
+    "evidence": [
+      "Deterministic checks cannot guarantee semantic equivalence. Review names, ambiguity, negation, tense and certainty."
+    ],
+    "likely_cause": "See recorded errors; string mismatch alone does not establish semantic failure.",
+    "potential_improvement": "Resolve dependencies/access first; human-review actual outputs before prompt changes."
+  },
+  {
+    "id": "E026",
+    "input": "mai aa rha hu",
+    "task": "convert",
+    "actual_output": "माई एए रहा हू",
+    "expected": [
+      "मैं आ रहा हूँ"
+    ],
+    "category": "reference_mismatch_requires_review",
+    "evidence": [
+      "Deterministic checks cannot guarantee semantic equivalence. Review names, ambiguity, negation, tense and certainty."
+    ],
+    "likely_cause": "See recorded errors; string mismatch alone does not establish semantic failure.",
+    "potential_improvement": "Resolve dependencies/access first; human-review actual outputs before prompt changes."
+  },
+  {
+    "id": "E027",
+    "input": "plz jaldi aao",
+    "task": "convert",
+    "actual_output": "पीएलज़ जल्दी एएओ",
+    "expected": [
+      "प्लीज़ जल्दी आओ"
+    ],
+    "category": "reference_mismatch_requires_review",
+    "evidence": [
+      "Deterministic checks cannot guarantee semantic equivalence. Review names, ambiguity, negation, tense and certainty."
+    ],
+    "likely_cause": "See recorded errors; string mismatch alone does not establish semantic failure.",
+    "potential_improvement": "Resolve dependencies/access first; human-review actual outputs before prompt changes."
+  },
+  {
+    "id": "E028",
+    "input": "nhi jana mujhe",
+    "task": "convert",
+    "actual_output": "न्ही जाना मुझे",
+    "expected": [
+      "नहीं जाना मुझे"
+    ],
+    "category": "reference_mismatch_requires_review",
+    "evidence": [
+      "Deterministic checks cannot guarantee semantic equivalence. Review names, ambiguity, negation, tense and certainty."
+    ],
+    "likely_cause": "See recorded errors; string mismatch alone does not establish semantic failure.",
+    "potential_improvement": "Resolve dependencies/access first; human-review actual outputs before prompt changes."
+  },
+  {
+    "id": "E030",
+    "input": "kabhi nahi bolna",
+    "task": "convert",
+    "actual_output": "kabhi nahi bolna",
+    "expected": [
+      "कभी नहीं बोलना"
+    ],
+    "category": "resource_or_validation",
+    "evidence": [
+      "Deterministic checks cannot guarantee semantic equivalence. Review names, ambiguity, negation, tense and certainty.",
+      "Possible negation loss.",
+      "Validation failed: retained the stage input."
+    ],
+    "likely_cause": "See recorded errors; string mismatch alone does not establish semantic failure.",
+    "potential_improvement": "Resolve dependencies/access first; human-review actual outputs before prompt changes."
+  },
+  {
+    "id": "E031",
+    "input": "yahan mat aana",
+    "task": "convert",
+    "actual_output": "yahan mat aana",
+    "expected": [
+      "यहाँ मत आना"
+    ],
+    "category": "resource_or_validation",
+    "evidence": [
+      "Deterministic checks cannot guarantee semantic equivalence. Review names, ambiguity, negation, tense and certainty.",
+      "Possible negation loss.",
+      "Validation failed: retained the stage input."
+    ],
+    "likely_cause": "See recorded errors; string mismatch alone does not establish semantic failure.",
+    "potential_improvement": "Resolve dependencies/access first; human-review actual outputs before prompt changes."
+  },
+  {
+    "id": "E032",
+    "input": "shayad woh aa sake",
+    "task": "convert",
+    "actual_output": "शायद वोह एए साके",
+    "expected": [
+      "शायद वह आ सके"
+    ],
+    "category": "reference_mismatch_requires_review",
+    "evidence": [
+      "Deterministic checks cannot guarantee semantic equivalence. Review names, ambiguity, negation, tense and certainty."
+    ],
+    "likely_cause": "See recorded errors; string mismatch alone does not establish semantic failure.",
+    "potential_improvement": "Resolve dependencies/access first; human-review actual outputs before prompt changes."
+  },
+  {
+    "id": "E033",
+    "input": "maine kaam kiya tha",
+    "task": "convert",
+    "actual_output": "मैने काम किया था",
+    "expected": [
+      "मैंने काम किया था"
+    ],
+    "category": "reference_mismatch_requires_review",
+    "evidence": [
+      "Deterministic checks cannot guarantee semantic equivalence. Review names, ambiguity, negation, tense and certainty."
+    ],
+    "likely_cause": "See recorded errors; string mismatch alone does not establish semantic failure.",
+    "potential_improvement": "Resolve dependencies/access first; human-review actual outputs before prompt changes."
+  },
+  {
+    "id": "E041",
+    "input": "मुझे कल कॉलेज जाना है",
+    "task": "improve",
+    "actual_output": "",
+    "expected": [
+      "मुझे कल कॉलेज जाना है"
+    ],
+    "category": "resource_or_validation",
+    "evidence": [
+      "ModelUnavailable: Insufficient available RAM for unquantized Param1 (estimated 13 GB float32 / 7 GB float16 including overhead). Close applications or use a suitable GPU machine. No substitute output was produced.",
+      "Deterministic checks cannot guarantee semantic equivalence. Review names, ambiguity, negation, tense and certainty."
+    ],
+    "likely_cause": "See recorded errors; string mismatch alone does not establish semantic failure.",
+    "potential_improvement": "Resolve dependencies/access first; human-review actual outputs before prompt changes."
+  },
+  {
+    "id": "E042",
+    "input": "कृपया मेरी समय सीमा बढ़ा दें।",
+    "task": "improve",
+    "actual_output": "",
+    "expected": [
+      "कृपया मेरी समय सीमा बढ़ा दें।"
+    ],
+    "category": "resource_or_validation",
+    "evidence": [
+      "ModelUnavailable: Insufficient available RAM for unquantized Param1 (estimated 13 GB float32 / 7 GB float16 including overhead). Close applications or use a suitable GPU machine. No substitute output was produced.",
+      "Deterministic checks cannot guarantee semantic equivalence. Review names, ambiguity, negation, tense and certainty."
+    ],
+    "likely_cause": "See recorded errors; string mismatch alone does not establish semantic failure.",
+    "potential_improvement": "Resolve dependencies/access first; human-review actual outputs before prompt changes."
+  },
+  {
+    "id": "E043",
+    "input": "मैंने काम पूरा नहीं किया है।",
+    "task": "improve",
+    "actual_output": "",
+    "expected": [
+      "मैंने काम पूरा नहीं किया है।"
+    ],
+    "category": "resource_or_validation",
+    "evidence": [
+      "ModelUnavailable: Insufficient available RAM for unquantized Param1 (estimated 13 GB float32 / 7 GB float16 including overhead). Close applications or use a suitable GPU machine. No substitute output was produced.",
+      "Deterministic checks cannot guarantee semantic equivalence. Review names, ambiguity, negation, tense and certainty."
+    ],
+    "likely_cause": "See recorded errors; string mismatch alone does not establish semantic failure.",
+    "potential_improvement": "Resolve dependencies/access first; human-review actual outputs before prompt changes."
+  },
+  {
+    "id": "E044",
+    "input": "शायद मैं आ सकूँ।",
+    "task": "improve",
+    "actual_output": "",
+    "expected": [
+      "शायद मैं आ सकूँ।"
+    ],
+    "category": "resource_or_validation",
+    "evidence": [
+      "ModelUnavailable: Insufficient available RAM for unquantized Param1 (estimated 13 GB float32 / 7 GB float16 including overhead). Close applications or use a suitable GPU machine. No substitute output was produced.",
+      "Deterministic checks cannot guarantee semantic equivalence. Review names, ambiguity, negation, tense and certainty."
+    ],
+    "likely_cause": "See recorded errors; string mismatch alone does not establish semantic failure.",
+    "potential_improvement": "Resolve dependencies/access first; human-review actual outputs before prompt changes."
+  },
+  {
+    "id": "E045",
+    "input": "आप रिपोर्ट भेज दीजिए।",
+    "task": "improve",
+    "actual_output": "",
+    "expected": [
+      "आप रिपोर्ट भेज दीजिए।"
+    ],
+    "category": "resource_or_validation",
+    "evidence": [
+      "ModelUnavailable: Insufficient available RAM for unquantized Param1 (estimated 13 GB float32 / 7 GB float16 including overhead). Close applications or use a suitable GPU machine. No substitute output was produced.",
+      "Deterministic checks cannot guarantee semantic equivalence. Review names, ambiguity, negation, tense and certainty."
+    ],
+    "likely_cause": "See recorded errors; string mismatch alone does not establish semantic failure.",
+    "potential_improvement": "Resolve dependencies/access first; human-review actual outputs before prompt changes."
+  },
+  {
+    "id": "E046",
+    "input": "मुझे meeting में jana hai",
+    "task": "full",
+    "actual_output": "",
+    "expected": [
+      "मुझे meeting में जाना है"
+    ],
+    "category": "resource_or_validation",
+    "evidence": [
+      "ModelUnavailable: Insufficient available RAM for unquantized Param1 (estimated 13 GB float32 / 7 GB float16 including overhead). Close applications or use a suitable GPU machine. No substitute output was produced.",
+      "Deterministic checks cannot guarantee semantic equivalence. Review names, ambiguity, negation, tense and certainty."
+    ],
+    "likely_cause": "See recorded errors; string mismatch alone does not establish semantic failure.",
+    "potential_improvement": "Resolve dependencies/access first; human-review actual outputs before prompt changes."
+  },
+  {
+    "id": "E048",
+    "input": "`print(12)` ko mat badalna",
+    "task": "convert",
+    "actual_output": "`print(12)` ko mat badalna",
+    "expected": [
+      "`print(12)` को मत बदलना"
+    ],
+    "category": "resource_or_validation",
+    "evidence": [
+      "Deterministic checks cannot guarantee semantic equivalence. Review names, ambiguity, negation, tense and certainty.",
+      "Possible negation loss.",
+      "Validation failed: retained the stage input."
+    ],
+    "likely_cause": "See recorded errors; string mismatch alone does not establish semantic failure.",
+    "potential_improvement": "Resolve dependencies/access first; human-review actual outputs before prompt changes."
+  },
+  {
+    "id": "E050",
+    "input": "मुझे घर जाना है।",
+    "task": "full",
+    "actual_output": "",
+    "expected": [
+      "मुझे घर जाना है।"
+    ],
+    "category": "resource_or_validation",
+    "evidence": [
+      "ModelUnavailable: Insufficient available RAM for unquantized Param1 (estimated 13 GB float32 / 7 GB float16 including overhead). Close applications or use a suitable GPU machine. No substitute output was produced.",
+      "Deterministic checks cannot guarantee semantic equivalence. Review names, ambiguity, negation, tense and certainty."
+    ],
+    "likely_cause": "See recorded errors; string mismatch alone does not establish semantic failure.",
+    "potential_improvement": "Resolve dependencies/access first; human-review actual outputs before prompt changes."
+  }
+]

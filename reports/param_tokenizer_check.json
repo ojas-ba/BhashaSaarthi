@@ -1,0 +1,7 @@
+{
+  "pretrained_weights_loaded": false,
+  "tokenizer_loaded": true,
+  "chat_template_token_count": 25,
+  "eos_token_id": 256001,
+  "seconds": 55.31621529998665
+}

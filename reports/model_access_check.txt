@@ -1,0 +1,244 @@
+{
+  "python": "3.11.5",
+  "os": "Windows-10-10.0.26200-SP0",
+  "models": [
+    {
+      "id": "bharatgenai/Param-1-2.9B-Instruct",
+      "sha": "f9b32a727458727ff515fea5d82df00ae9b7ad56",
+      "gated": false,
+      "cardData": {
+        "language": [
+          "hi",
+          "en"
+        ],
+        "base_model": [
+          "bharatgenai/Param-1"
+        ],
+        "pipeline_tag": "text-generation",
+        "library_name": "transformers",
+        "license": "apache-2.0"
+      },
+      "files": [
+        ".gitattributes",
+        "BharatGen Logo (1).png",
+        "README.md",
+        "chat_template.jinja",
+        "config.json",
+        "config_parambharatgen.py",
+        "generation_config.json",
+        "model-00001-of-00002.safetensors",
+        "model-00002-of-00002.safetensors",
+        "model.safetensors.index.json",
+        "modeling_parambharatgen.py",
+        "special_tokens_map.json",
+        "tokenizer.json",
+        "tokenizer_config.json"
+      ],
+      "review_sources": {
+        "config.json": "d5a49f1260cf9b69d4a4bbea920b69dab16066a0726b54aea0b936c331728301",
+        "config_parambharatgen.py": "9d89451dabb06aa289b35d48fc24bc8d0818d48fe51cad80c5d21df95abed3eb",
+        "modeling_parambharatgen.py": "4745b5bc5596aa906ce880c14d15bdc3197cd04337e7685ebbed4d4f9ea719b5"
+      }
+    },
+    {
+      "id": "ai4bharat/indictrans2-indic-en-dist-200M",
+      "sha": "d66a2122ad6d28184f3dc3797b652bd80ae3f65f",
+      "gated": "auto",
+      "cardData": {
+        "language": [
+          "as",
+          "bn",
+          "brx",
+          "doi",
+          "en",
+          "gom",
+          "gu",
+          "hi",
+          "kn",
+          "ks",
+          "kas",
+          "mai",
+          "ml",
+          "mr",
+          "mni",
+          "mnb",
+          "ne",
+          "or",
+          "pa",
+          "sa",
+          "sat",
+          "sd",
+          "snd",
+          "ta",
+          "te",
+          "ur"
+        ],
+        "language_details": "asm_Beng, ben_Beng, brx_Deva, doi_Deva, eng_Latn, gom_Deva, guj_Gujr, hin_Deva, kan_Knda, kas_Arab, kas_Deva, mai_Deva, mal_Mlym, mar_Deva, mni_Beng, mni_Mtei, npi_Deva, ory_Orya, pan_Guru, san_Deva, sat_Olck, snd_Arab, snd_Deva, tam_Taml, tel_Telu, urd_Arab",
+        "tags": [
+          "indictrans2",
+          "translation",
+          "ai4bharat",
+          "multilingual"
+        ],
+        "license": "mit",
+        "datasets": [
+          "flores-200",
+          "IN22-Gen",
+          "IN22-Conv"
+        ],
+        "metrics": [
+          "bleu",
+          "chrf",
+          "chrf++",
+          "comet"
+        ],
+        "inference": false
+      },
+      "files": [
+        ".gitattributes",
+        "LICENSE",
+        "README.md",
+        "config.json",
+        "configuration_indictrans.py",
+        "dict.SRC.json",
+        "dict.TGT.json",
+        "generation_config.json",
+        "model.SRC",
+        "model.TGT",
+        "model.safetensors",
+        "modeling_indictrans.py",
+        "pytorch_model.bin",
+        "tokenization_indictrans.py",
+        "tokenizer_config.json"
+      ],
+      "review_sources": {
+        "LICENSE": "383258420065a19d9fef0daf00d10792d3f8a5ccf783d94a91f5d6755386615b",
+        "config.json": "7268e8cc0fb12d2791d5380595eb44039d03a2066c995f99a1bcc9da8d1100a6",
+        "configuration_indictrans.py": "d7e4ce84efacc18981228f5071b00dba6e3bf165f8ea7bcc8ecdada8942e1a52",
+        "modeling_indictrans.py": "3b02ccd83a829d061aa11bb48190962fce6725309ac6a65621595ce45a03d47f",
+        "tokenization_indictrans.py": "35396cf65b9fdc21379f8bc12cd658eec32fbe5de87a25fa5f4df190c5ffc4e3"
+      }
+    }
+  ],
+  "aksharantar": {
+    "id": "ai4bharat/Aksharantar",
+    "sha": "e418c1fc928d9f5393af33268472cf20c1891be8",
+    "gated": false,
+    "cardData": {
+      "annotations_creators": [],
+      "language_creators": [
+        "crowdsourced",
+        "expert-generated",
+        "machine-generated",
+        "found",
+        "other"
+      ],
+      "language": [
+        "asm",
+        "ben",
+        "brx",
+        "doi",
+        "guj",
+        "hin",
+        "kan",
+        "kas",
+        "kok",
+        "mai",
+        "mal",
+        "mar",
+        "mni",
+        "nep",
+        "ori",
+        "pan",
+        "san",
+        "sid",
+        "tam",
+        "tel",
+        "urd"
+      ],
+      "license": "cc",
+      "multilinguality": [
+        "multilingual"
+      ],
+      "pretty_name": "Aksharantar",
+      "source_datasets": [
+        "original"
+      ],
+      "task_categories": [
+        "text-generation"
+      ],
+      "task_ids": []
+    },
+    "siblings": [
+      {
+        "rfilename": ".gitattributes"
+      },
+      {
+        "rfilename": "README.md"
+      },
+      {
+        "rfilename": "asm.zip"
+      },
+      {
+        "rfilename": "ben.zip"
+      },
+      {
+        "rfilename": "brx.zip"
+      },
+      {
+        "rfilename": "doi.zip"
+      },
+      {
+        "rfilename": "guj.zip"
+      },
+      {
+        "rfilename": "hin.zip"
+      },
+      {
+        "rfilename": "kan.zip"
+      },
+      {
+        "rfilename": "kas.zip"
+      },
+      {
+        "rfilename": "kok.zip"
+      },
+      {
+        "rfilename": "mai.zip"
+      },
+      {
+        "rfilename": "mal.zip"
+      },
+      {
+        "rfilename": "mar.zip"
+      },
+      {
+        "rfilename": "mni.zip"
+      },
+      {
+        "rfilename": "nep.zip"
+      },
+      {
+        "rfilename": "ori.zip"
+      },
+      {
+        "rfilename": "pan.zip"
+      },
+      {
+        "rfilename": "san.zip"
+      },
+      {
+        "rfilename": "sid.zip"
+      },
+      {
+        "rfilename": "tam.zip"
+      },
+      {
+        "rfilename": "tel.zip"
+      },
+      {
+        "rfilename": "urd.zip"
+      }
+    ]
+  }
+}

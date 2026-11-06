@@ -1,0 +1,404 @@
+[
+  {
+    "category": "straightforward",
+    "result": {
+      "original": "mujhe ghar jana hai",
+      "converted": "मुझे घर जाना है",
+      "improved": "",
+      "english": "",
+      "raw_indicxlit": "मुझे घर जाना है",
+      "context_corrected": "",
+      "candidates": {
+        "mujhe": [
+          "मुझे",
+          "मूझे",
+          "मुझें",
+          "मुंझे",
+          "मुज़े"
+        ],
+        "ghar": [
+          "घर",
+          "घार",
+          "घर्",
+          "गहर",
+          "घड़"
+        ],
+        "jana": [
+          "जाना",
+          "जना",
+          "जाणा",
+          "जान",
+          "जन"
+        ],
+        "hai": [
+          "है",
+          "हाई",
+          "हाइ",
+          "हई",
+          "हेई"
+        ]
+      },
+      "models_used": [
+        "AI4Bharat IndicXlit v1.0 / ai4bharat-transliteration 1.1.3"
+      ],
+      "timings": {
+        "indicxlit": 0.688916099985363,
+        "total": 0.6974450999987312
+      },
+      "warnings": [
+        "Deterministic checks cannot guarantee semantic equivalence. Review names, ambiguity, negation, tense and certainty."
+      ],
+      "errors": [],
+      "validation_failures": [],
+      "basic_only": true
+    }
+  },
+  {
+    "category": "mixed",
+    "result": {
+      "original": "kal meeting hai please time pe aana",
+      "converted": "kal meeting है please time पीई आना",
+      "improved": "",
+      "english": "",
+      "raw_indicxlit": "कल मीटिंग है प्लीज टाइम पीई आना",
+      "context_corrected": "",
+      "candidates": {
+        "kal": [
+          "कल",
+          "काल",
+          "कल्",
+          "केएल",
+          "कॉल"
+        ],
+        "meeting": [
+          "मीटिंग",
+          "मिटिंग",
+          "मीटींग",
+          "मीतिंग",
+          "माइटिंग"
+        ],
+        "hai": [
+          "है",
+          "हाई",
+          "हाइ",
+          "हई",
+          "हेई"
+        ],
+        "please": [
+          "प्लीज",
+          "प्लीज़",
+          "प्लीस",
+          "प्लिज",
+          "प्लिज़"
+        ],
+        "time": [
+          "टाइम",
+          "टाईम",
+          "टिमे",
+          "तिमे",
+          "तीमे"
+        ],
+        "pe": [
+          "पीई",
+          "पे",
+          "पें",
+          "पीइ",
+          "पिई"
+        ],
+        "aana": [
+          "आना",
+          "आणा",
+          "एएनए",
+          "आन",
+          "अना"
+        ]
+      },
+      "models_used": [
+        "AI4Bharat IndicXlit v1.0 / ai4bharat-transliteration 1.1.3"
+      ],
+      "timings": {
+        "indicxlit": 1.06179079998401,
+        "context_param1": 0.04956080002011731,
+        "context_param1_cold_load": 0.0,
+        "context_param1_excluding_load": 0.04956080002011731,
+        "total": 1.111741400003666
+      },
+      "warnings": [
+        "Deterministic checks cannot guarantee semantic equivalence. Review names, ambiguity, negation, tense and certainty.",
+        "Potentially ambiguous words: kal. kal can mean yesterday/tomorrow; unresolved forms remain unchanged in basic mode.",
+        "BASIC TRANSLITERATION ONLY: Insufficient available RAM for unquantized Param1 (estimated 13 GB float32 / 7 GB float16 including overhead). Close applications or use a suitable GPU machine. No substitute output was produced."
+      ],
+      "errors": [],
+      "validation_failures": [],
+      "basic_only": true
+    }
+  },
+  {
+    "category": "negation",
+    "result": {
+      "original": "maine assignment submit nahi kiya",
+      "converted": "maine assignment submit nahi kiya",
+      "improved": "",
+      "english": "",
+      "raw_indicxlit": "मैने असाइनमेंट सबमिट नही किया",
+      "context_corrected": "",
+      "candidates": {
+        "maine": [
+          "मैने",
+          "माइने",
+          "मेने",
+          "मेन",
+          "माइन"
+        ],
+        "assignment": [
+          "असाइनमेंट",
+          "एसाइनमेंट",
+          "असाइन्मेंट",
+          "असाइनमेन्ट",
+          "असाइनमैंट"
+        ],
+        "submit": [
+          "सबमिट",
+          "सब्मिट",
+          "सबमीट",
+          "सबमित",
+          "सब्मित"
+        ],
+        "nahi": [
+          "नही",
+          "नाही",
+          "नहि",
+          "नाहि",
+          "नहीं"
+        ],
+        "kiya": [
+          "किया",
+          "कीया",
+          "कीय",
+          "कियाँ",
+          "किय"
+        ]
+      },
+      "models_used": [
+        "AI4Bharat IndicXlit v1.0 / ai4bharat-transliteration 1.1.3"
+      ],
+      "timings": {
+        "indicxlit": 0.7342555999930482,
+        "total": 0.7447457000089344
+      },
+      "warnings": [
+        "Deterministic checks cannot guarantee semantic equivalence. Review names, ambiguity, negation, tense and certainty.",
+        "Possible negation loss.",
+        "Validation failed: retained the stage input."
+      ],
+      "errors": [],
+      "validation_failures": [
+        "Possible negation loss."
+      ],
+      "basic_only": true
+    }
+  },
+  {
+    "category": "formal",
+    "result": {
+      "original": "मुझे कल कॉलेज जाना है",
+      "converted": "",
+      "improved": "",
+      "english": "",
+      "raw_indicxlit": "",
+      "context_corrected": "",
+      "candidates": {},
+      "models_used": [],
+      "timings": {
+        "rewrite_param1": 0.013162400020519271,
+        "rewrite_param1_cold_load": 0.0,
+        "rewrite_param1_excluding_load": 0.013162400020519271,
+        "total": 0.013272499985760078
+      },
+      "warnings": [
+        "Deterministic checks cannot guarantee semantic equivalence. Review names, ambiguity, negation, tense and certainty."
+      ],
+      "errors": [
+        "ModelUnavailable: Insufficient available RAM for unquantized Param1 (estimated 13 GB float32 / 7 GB float16 including overhead). Close applications or use a suitable GPU machine. No substitute output was produced."
+      ],
+      "validation_failures": [],
+      "basic_only": false
+    }
+  },
+  {
+    "category": "translation",
+    "result": {
+      "original": "मुझे घर जाना है।",
+      "converted": "",
+      "improved": "",
+      "english": "",
+      "raw_indicxlit": "",
+      "context_corrected": "",
+      "candidates": {},
+      "models_used": [],
+      "timings": {
+        "indictrans2": 0.010327199997846037,
+        "indictrans2_cold_load": 0.0,
+        "indictrans2_excluding_load": 0.010327199997846037,
+        "total": 0.010751800000434741
+      },
+      "warnings": [
+        "Deterministic checks cannot guarantee semantic equivalence. Review names, ambiguity, negation, tense and certainty."
+      ],
+      "errors": [
+        "ModelUnavailable: Pinned remote model code has not been enabled. Run scripts/inspect_models.py, inspect downloaded Python files, then set ALLOW_REVIEWED_REMOTE_CODE=1."
+      ],
+      "validation_failures": [],
+      "basic_only": false
+    }
+  },
+  {
+    "category": "names_numbers",
+    "result": {
+      "original": "Naman ne 12 November ko report bheji thi",
+      "converted": "Naman ने 12 November को report भेजी थी",
+      "improved": "",
+      "english": "",
+      "raw_indicxlit": "Naman ने 12 November को रिपोर्ट भेजी थी",
+      "context_corrected": "",
+      "candidates": {
+        "ne": [
+          "ने",
+          "एनई",
+          "नी",
+          "नें",
+          "नि"
+        ],
+        "ko": [
+          "को",
+          "कों",
+          "केओ",
+          "कू",
+          "कॉ"
+        ],
+        "report": [
+          "रिपोर्ट",
+          "रीपोर्ट",
+          "रेपोर्ट",
+          "रिपॉर्ट",
+          "रिपोर्ट्"
+        ],
+        "bheji": [
+          "भेजी",
+          "भेजि",
+          "भेंजी",
+          "बेजी",
+          "भेजीं"
+        ],
+        "thi": [
+          "थी",
+          "थि",
+          "ठी",
+          "ठि",
+          "ती"
+        ]
+      },
+      "models_used": [
+        "AI4Bharat IndicXlit v1.0 / ai4bharat-transliteration 1.1.3"
+      ],
+      "timings": {
+        "indicxlit": 0.553692499990575,
+        "total": 0.5541714999999385
+      },
+      "warnings": [
+        "Deterministic checks cannot guarantee semantic equivalence. Review names, ambiguity, negation, tense and certainty."
+      ],
+      "errors": [],
+      "validation_failures": [],
+      "basic_only": true
+    }
+  },
+  {
+    "category": "ambiguous",
+    "result": {
+      "original": "kal",
+      "converted": "kal",
+      "improved": "",
+      "english": "",
+      "raw_indicxlit": "कल",
+      "context_corrected": "",
+      "candidates": {
+        "kal": [
+          "कल",
+          "काल",
+          "कल्",
+          "केएल",
+          "कॉल"
+        ]
+      },
+      "models_used": [
+        "AI4Bharat IndicXlit v1.0 / ai4bharat-transliteration 1.1.3"
+      ],
+      "timings": {
+        "indicxlit": 0.11166809999849647,
+        "total": 0.11186000000452623
+      },
+      "warnings": [
+        "Deterministic checks cannot guarantee semantic equivalence. Review names, ambiguity, negation, tense and certainty.",
+        "Potentially ambiguous words: kal. kal can mean yesterday/tomorrow; unresolved forms remain unchanged in basic mode."
+      ],
+      "errors": [],
+      "validation_failures": [],
+      "basic_only": true
+    }
+  },
+  {
+    "category": "email",
+    "result": {
+      "original": "Please email mujhe test@example.com par bhejna",
+      "converted": "Please email मुझे test@example.com पर भेजना",
+      "improved": "",
+      "english": "",
+      "raw_indicxlit": "Please इमेल मुझे test@example.com पर भेजना",
+      "context_corrected": "",
+      "candidates": {
+        "email": [
+          "इमेल",
+          "ईमेल",
+          "एमेल",
+          "इमैल",
+          "ईमैल"
+        ],
+        "mujhe": [
+          "मुझे",
+          "मूझे",
+          "मुझें",
+          "मुंझे",
+          "मुज़े"
+        ],
+        "par": [
+          "पर",
+          "पार",
+          "पर्",
+          "पार्",
+          "प्र"
+        ],
+        "bhejna": [
+          "भेजना",
+          "भेज्ना",
+          "भजना",
+          "भेजणा",
+          "बेजना"
+        ]
+      },
+      "models_used": [
+        "AI4Bharat IndicXlit v1.0 / ai4bharat-transliteration 1.1.3"
+      ],
+      "timings": {
+        "indicxlit": 0.5170271999959368,
+        "total": 0.5173390999843832
+      },
+      "warnings": [
+        "Deterministic checks cannot guarantee semantic equivalence. Review names, ambiguity, negation, tense and certainty."
+      ],
+      "errors": [],
+      "validation_failures": [],
+      "basic_only": true
+    }
+  }
+]

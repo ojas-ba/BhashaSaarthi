@@ -1,0 +1,419 @@
+Requirement already satisfied: streamlit==1.51.0 in c:\users\naman\downloads\rvu\hinglish smart writing assistant\.venv\lib\site-packages (from -r requirements.txt (line 1)) (1.51.0)
+
+Requirement already satisfied: pytest==8.4.2 in c:\users\naman\downloads\rvu\hinglish smart writing assistant\.venv\lib\site-packages (from -r requirements.txt (line 2)) (8.4.2)
+
+Requirement already satisfied: psutil==7.1.3 in c:\users\naman\downloads\rvu\hinglish smart writing assistant\.venv\lib\site-packages (from -r requirements.txt (line 3)) (7.1.3)
+
+Requirement already satisfied: sacrebleu==2.5.1 in c:\users\naman\downloads\rvu\hinglish smart writing assistant\.venv\lib\site-packages (from -r requirements.txt (line 4)) (2.5.1)
+
+Requirement already satisfied: requests==2.32.5 in c:\users\naman\downloads\rvu\hinglish smart writing assistant\.venv\lib\site-packages (from -r requirements.txt (line 5)) (2.32.5)
+
+Requirement already satisfied: python-dotenv==1.2.1 in c:\users\naman\downloads\rvu\hinglish smart writing assistant\.venv\lib\site-packages (from -r requirements.txt (line 6)) (1.2.1)
+
+Collecting torch==2.5.1 (from -r requirements-models.txt (line 2))
+
+  Obtaining dependency information for torch==2.5.1 from https://files.pythonhosted.org/packages/0d/4a/e51420d46cfc90562e85af2fee912237c662ab31140ab179e49bd69401d6/torch-2.5.1-cp311-cp311-win_amd64.whl.metadata
+
+  Using cached torch-2.5.1-cp311-cp311-win_amd64.whl.metadata (28 kB)
+
+Collecting transformers==4.49.0 (from -r requirements-models.txt (line 3))
+
+  Obtaining dependency information for transformers==4.49.0 from https://files.pythonhosted.org/packages/20/37/1f29af63e9c30156a3ed6ebc2754077016577c094f31de7b2631e5d379eb/transformers-4.49.0-py3-none-any.whl.metadata
+
+  Using cached transformers-4.49.0-py3-none-any.whl.metadata (44 kB)
+
+Collecting accelerate==1.6.0 (from -r requirements-models.txt (line 4))
+
+  Obtaining dependency information for accelerate==1.6.0 from https://files.pythonhosted.org/packages/63/b1/8198e3cdd11a426b1df2912e3381018c4a4a55368f6d0857ba3ca418ef93/accelerate-1.6.0-py3-none-any.whl.metadata
+
+  Using cached accelerate-1.6.0-py3-none-any.whl.metadata (19 kB)
+
+Collecting sentencepiece==0.2.0 (from -r requirements-models.txt (line 5))
+
+  Obtaining dependency information for sentencepiece==0.2.0 from https://files.pythonhosted.org/packages/a2/f6/587c62fd21fc988555b85351f50bbde43a51524caafd63bc69240ded14fd/sentencepiece-0.2.0-cp311-cp311-win_amd64.whl.metadata
+
+  Using cached sentencepiece-0.2.0-cp311-cp311-win_amd64.whl.metadata (8.3 kB)
+
+Collecting protobuf==5.29.4 (from -r requirements-models.txt (line 6))
+
+  Obtaining dependency information for protobuf==5.29.4 from https://files.pythonhosted.org/packages/79/fc/2474b59570daa818de6124c0a15741ee3e5d6302e9d6ce0bdfd12e98119f/protobuf-5.29.4-cp310-abi3-win_amd64.whl.metadata
+
+  Using cached protobuf-5.29.4-cp310-abi3-win_amd64.whl.metadata (592 bytes)
+
+Collecting einops==0.8.1 (from -r requirements-models.txt (line 7))
+
+  Obtaining dependency information for einops==0.8.1 from https://files.pythonhosted.org/packages/87/62/9773de14fe6c45c23649e98b83231fffd7b9892b6cf863251dc2afa73643/einops-0.8.1-py3-none-any.whl.metadata
+
+  Using cached einops-0.8.1-py3-none-any.whl.metadata (13 kB)
+
+Collecting indictranstoolkit==1.1.1 (from -r requirements-models.txt (line 8))
+
+  Using cached indictranstoolkit-1.1.1.tar.gz (122 kB)
+
+  Installing build dependencies: started
+
+  Installing build dependencies: finished with status 'done'
+
+  Getting requirements to build wheel: started
+
+  Getting requirements to build wheel: finished with status 'done'
+
+  Preparing metadata (pyproject.toml): started
+
+  Preparing metadata (pyproject.toml): finished with status 'done'
+
+Requirement already satisfied: altair!=5.4.0,!=5.4.1,<6,>=4.0 in c:\users\naman\downloads\rvu\hinglish smart writing assistant\.venv\lib\site-packages (from streamlit==1.51.0->-r requirements.txt (line 1)) (5.5.0)
+
+Requirement already satisfied: blinker<2,>=1.5.0 in c:\users\naman\downloads\rvu\hinglish smart writing assistant\.venv\lib\site-packages (from streamlit==1.51.0->-r requirements.txt (line 1)) (1.9.0)
+
+Requirement already satisfied: cachetools<7,>=4.0 in c:\users\naman\downloads\rvu\hinglish smart writing assistant\.venv\lib\site-packages (from streamlit==1.51.0->-r requirements.txt (line 1)) (6.2.6)
+
+Requirement already satisfied: click<9,>=7.0 in c:\users\naman\downloads\rvu\hinglish smart writing assistant\.venv\lib\site-packages (from streamlit==1.51.0->-r requirements.txt (line 1)) (8.5.0)
+
+Requirement already satisfied: numpy<3,>=1.23 in c:\users\naman\downloads\rvu\hinglish smart writing assistant\.venv\lib\site-packages (from streamlit==1.51.0->-r requirements.txt (line 1)) (2.4.6)
+
+Requirement already satisfied: packaging<26,>=20 in c:\users\naman\downloads\rvu\hinglish smart writing assistant\.venv\lib\site-packages (from streamlit==1.51.0->-r requirements.txt (line 1)) (25.0)
+
+Requirement already satisfied: pandas<3,>=1.4.0 in c:\users\naman\downloads\rvu\hinglish smart writing assistant\.venv\lib\site-packages (from streamlit==1.51.0->-r requirements.txt (line 1)) (2.3.3)
+
+Requirement already satisfied: pillow<13,>=7.1.0 in c:\users\naman\downloads\rvu\hinglish smart writing assistant\.venv\lib\site-packages (from streamlit==1.51.0->-r requirements.txt (line 1)) (12.3.0)
+
+Requirement already satisfied: pyarrow<22,>=7.0 in c:\users\naman\downloads\rvu\hinglish smart writing assistant\.venv\lib\site-packages (from streamlit==1.51.0->-r requirements.txt (line 1)) (21.0.0)
+
+Requirement already satisfied: tenacity<10,>=8.1.0 in c:\users\naman\downloads\rvu\hinglish smart writing assistant\.venv\lib\site-packages (from streamlit==1.51.0->-r requirements.txt (line 1)) (9.2.1)
+
+Requirement already satisfied: toml<2,>=0.10.1 in c:\users\naman\downloads\rvu\hinglish smart writing assistant\.venv\lib\site-packages (from streamlit==1.51.0->-r requirements.txt (line 1)) (0.10.2)
+
+Requirement already satisfied: typing-extensions<5,>=4.4.0 in c:\users\naman\downloads\rvu\hinglish smart writing assistant\.venv\lib\site-packages (from streamlit==1.51.0->-r requirements.txt (line 1)) (4.16.0)
+
+Requirement already satisfied: watchdog<7,>=2.1.5 in c:\users\naman\downloads\rvu\hinglish smart writing assistant\.venv\lib\site-packages (from streamlit==1.51.0->-r requirements.txt (line 1)) (6.0.0)
+
+Requirement already satisfied: gitpython!=3.1.19,<4,>=3.0.7 in c:\users\naman\downloads\rvu\hinglish smart writing assistant\.venv\lib\site-packages (from streamlit==1.51.0->-r requirements.txt (line 1)) (3.2.1)
+
+Requirement already satisfied: pydeck<1,>=0.8.0b4 in c:\users\naman\downloads\rvu\hinglish smart writing assistant\.venv\lib\site-packages (from streamlit==1.51.0->-r requirements.txt (line 1)) (0.9.3)
+
+Requirement already satisfied: tornado!=6.5.0,<7,>=6.0.3 in c:\users\naman\downloads\rvu\hinglish smart writing assistant\.venv\lib\site-packages (from streamlit==1.51.0->-r requirements.txt (line 1)) (6.6)
+
+Requirement already satisfied: colorama>=0.4 in c:\users\naman\downloads\rvu\hinglish smart writing assistant\.venv\lib\site-packages (from pytest==8.4.2->-r requirements.txt (line 2)) (0.4.6)
+
+Requirement already satisfied: iniconfig>=1 in c:\users\naman\downloads\rvu\hinglish smart writing assistant\.venv\lib\site-packages (from pytest==8.4.2->-r requirements.txt (line 2)) (2.3.1)
+
+Requirement already satisfied: pluggy<2,>=1.5 in c:\users\naman\downloads\rvu\hinglish smart writing assistant\.venv\lib\site-packages (from pytest==8.4.2->-r requirements.txt (line 2)) (1.7.0)
+
+Requirement already satisfied: pygments>=2.7.2 in c:\users\naman\downloads\rvu\hinglish smart writing assistant\.venv\lib\site-packages (from pytest==8.4.2->-r requirements.txt (line 2)) (2.21.0)
+
+Requirement already satisfied: portalocker in c:\users\naman\downloads\rvu\hinglish smart writing assistant\.venv\lib\site-packages (from sacrebleu==2.5.1->-r requirements.txt (line 4)) (4.4.2)
+
+Requirement already satisfied: regex in c:\users\naman\downloads\rvu\hinglish smart writing assistant\.venv\lib\site-packages (from sacrebleu==2.5.1->-r requirements.txt (line 4)) (2026.9.29)
+
+Requirement already satisfied: tabulate>=0.8.9 in c:\users\naman\downloads\rvu\hinglish smart writing assistant\.venv\lib\site-packages (from sacrebleu==2.5.1->-r requirements.txt (line 4)) (0.10.0)
+
+Requirement already satisfied: lxml in c:\users\naman\downloads\rvu\hinglish smart writing assistant\.venv\lib\site-packages (from sacrebleu==2.5.1->-r requirements.txt (line 4)) (6.1.3)
+
+Requirement already satisfied: charset_normalizer<4,>=2 in c:\users\naman\downloads\rvu\hinglish smart writing assistant\.venv\lib\site-packages (from requests==2.32.5->-r requirements.txt (line 5)) (3.5.2)
+
+Requirement already satisfied: idna<4,>=2.5 in c:\users\naman\downloads\rvu\hinglish smart writing assistant\.venv\lib\site-packages (from requests==2.32.5->-r requirements.txt (line 5)) (3.20)
+
+Requirement already satisfied: urllib3<3,>=1.21.1 in c:\users\naman\downloads\rvu\hinglish smart writing assistant\.venv\lib\site-packages (from requests==2.32.5->-r requirements.txt (line 5)) (2.8.0)
+
+Requirement already satisfied: certifi>=2017.4.17 in c:\users\naman\downloads\rvu\hinglish smart writing assistant\.venv\lib\site-packages (from requests==2.32.5->-r requirements.txt (line 5)) (2026.10.23)
+
+Collecting filelock (from torch==2.5.1->-r requirements-models.txt (line 2))
+
+  Obtaining dependency information for filelock from https://files.pythonhosted.org/packages/00/05/76184fe08339723d643ab47887a8e4de8f2921ca4e008617ab7490af7857/filelock-4.2.9-py3-none-any.whl.metadata
+
+  Using cached filelock-4.2.9-py3-none-any.whl.metadata (2.3 kB)
+
+Collecting networkx (from torch==2.5.1->-r requirements-models.txt (line 2))
+
+  Obtaining dependency information for networkx from https://files.pythonhosted.org/packages/9e/c9/b2622292ea83fbb4ec318f5b9ab867d0a28ab43c5717bb85b0a5f6b3b0a4/networkx-3.6.1-py3-none-any.whl.metadata
+
+  Using cached networkx-3.6.1-py3-none-any.whl.metadata (6.8 kB)
+
+Requirement already satisfied: jinja2 in c:\users\naman\downloads\rvu\hinglish smart writing assistant\.venv\lib\site-packages (from torch==2.5.1->-r requirements-models.txt (line 2)) (3.1.6)
+
+Collecting fsspec (from torch==2.5.1->-r requirements-models.txt (line 2))
+
+  Obtaining dependency information for fsspec from https://files.pythonhosted.org/packages/6c/c0/a98505f18594f1bce828bb159cec0fcf9860562f1a2c85913409fc8f3d9e/fsspec-2026.9.0-py3-none-any.whl.metadata
+
+  Using cached fsspec-2026.9.0-py3-none-any.whl.metadata (10 kB)
+
+Collecting sympy==1.13.1 (from torch==2.5.1->-r requirements-models.txt (line 2))
+
+  Obtaining dependency information for sympy==1.13.1 from https://files.pythonhosted.org/packages/b2/fe/81695a1aa331a842b582453b605175f419fe8540355886031328089d840a/sympy-1.13.1-py3-none-any.whl.metadata
+
+  Using cached sympy-1.13.1-py3-none-any.whl.metadata (12 kB)
+
+Collecting huggingface-hub<1.0,>=0.26.0 (from transformers==4.49.0->-r requirements-models.txt (line 3))
+
+  Obtaining dependency information for huggingface-hub<1.0,>=0.26.0 from https://files.pythonhosted.org/packages/a8/af/48ac8483240de756d2438c380746e7130d1c6f75802ef22f3c6d49982787/huggingface_hub-0.36.2-py3-none-any.whl.metadata
+
+  Using cached huggingface_hub-0.36.2-py3-none-any.whl.metadata (15 kB)
+
+Collecting pyyaml>=5.1 (from transformers==4.49.0->-r requirements-models.txt (line 3))
+
+  Obtaining dependency information for pyyaml>=5.1 from https://files.pythonhosted.org/packages/da/e3/ea007450a105ae919a72393cb06f122f288ef60bba2dc64b26e2646fa315/pyyaml-6.0.3-cp311-cp311-win_amd64.whl.metadata
+
+  Using cached pyyaml-6.0.3-cp311-cp311-win_amd64.whl.metadata (2.4 kB)
+
+Collecting tokenizers<0.22,>=0.21 (from transformers==4.49.0->-r requirements-models.txt (line 3))
+
+  Obtaining dependency information for tokenizers<0.22,>=0.21 from https://files.pythonhosted.org/packages/41/f2/fd673d979185f5dcbac4be7d09461cbb99751554ffb6718d0013af8604cb/tokenizers-0.21.4-cp39-abi3-win_amd64.whl.metadata
+
+  Using cached tokenizers-0.21.4-cp39-abi3-win_amd64.whl.metadata (6.9 kB)
+
+Collecting safetensors>=0.4.1 (from transformers==4.49.0->-r requirements-models.txt (line 3))
+
+  Obtaining dependency information for safetensors>=0.4.1 from https://files.pythonhosted.org/packages/1b/6d/3fba214c1e5e0f69991677ec3bc17023f0421776975e1de0c682dca475e2/safetensors-0.8.0-cp310-abi3-win_amd64.whl.metadata
+
+  Using cached safetensors-0.8.0-cp310-abi3-win_amd64.whl.metadata (4.2 kB)
+
+Collecting tqdm>=4.27 (from transformers==4.49.0->-r requirements-models.txt (line 3))
+
+  Obtaining dependency information for tqdm>=4.27 from https://files.pythonhosted.org/packages/a7/03/921a3d3c75785aca9ebfbfcabfbc3a1be12e2ab5265deb026d55a5a3f83e/tqdm-4.70.1-py3-none-any.whl.metadata
+
+  Using cached tqdm-4.70.1-py3-none-any.whl.metadata (57 kB)
+
+Collecting cython (from indictranstoolkit==1.1.1->-r requirements-models.txt (line 8))
+
+  Obtaining dependency information for cython from https://files.pythonhosted.org/packages/de/44/55cfaaba499dcd06fb998bf64d3839f7208e80b2acb1dabcdec515d26bf9/cython-3.3.1-cp311-cp311-win_amd64.whl.metadata
+
+  Using cached cython-3.3.1-cp311-cp311-win_amd64.whl.metadata (13 kB)
+
+Collecting sacremoses (from indictranstoolkit==1.1.1->-r requirements-models.txt (line 8))
+
+  Obtaining dependency information for sacremoses from https://files.pythonhosted.org/packages/f6/b7/c00aa54e29f8d79ba8ec22e7c48a1f02fa1b7c55bd1e4429edf7c6ecb231/sacremoses-0.2.0-py3-none-any.whl.metadata
+
+  Using cached sacremoses-0.2.0-py3-none-any.whl.metadata (8.8 kB)
+
+Collecting indic-nlp-library-itt (from indictranstoolkit==1.1.1->-r requirements-models.txt (line 8))
+
+  Obtaining dependency information for indic-nlp-library-itt from https://files.pythonhosted.org/packages/99/2d/0c8b8de90ed687f8e7009b4e7c026d057b05be2bc3520a9515df235202f5/indic_nlp_library_itt-0.1.1-py3-none-any.whl.metadata
+
+  Using cached indic_nlp_library_itt-0.1.1-py3-none-any.whl.metadata (2.2 kB)
+
+Collecting mpmath<1.4,>=1.1.0 (from sympy==1.13.1->torch==2.5.1->-r requirements-models.txt (line 2))
+
+  Obtaining dependency information for mpmath<1.4,>=1.1.0 from https://files.pythonhosted.org/packages/43/e3/7d92a15f894aa0c9c4b49b8ee9ac9850d6e63b03c9c32c0367a13ae62209/mpmath-1.3.0-py3-none-any.whl.metadata
+
+  Using cached mpmath-1.3.0-py3-none-any.whl.metadata (8.6 kB)
+
+Requirement already satisfied: jsonschema>=3.0 in c:\users\naman\downloads\rvu\hinglish smart writing assistant\.venv\lib\site-packages (from altair!=5.4.0,!=5.4.1,<6,>=4.0->streamlit==1.51.0->-r requirements.txt (line 1)) (4.26.0)
+
+Requirement already satisfied: narwhals>=1.14.2 in c:\users\naman\downloads\rvu\hinglish smart writing assistant\.venv\lib\site-packages (from altair!=5.4.0,!=5.4.1,<6,>=4.0->streamlit==1.51.0->-r requirements.txt (line 1)) (2.28.0)
+
+Requirement already satisfied: gitdb<5,>=4.0.1 in c:\users\naman\downloads\rvu\hinglish smart writing assistant\.venv\lib\site-packages (from gitpython!=3.1.19,<4,>=3.0.7->streamlit==1.51.0->-r requirements.txt (line 1)) (4.0.12)
+
+Requirement already satisfied: python-dateutil>=2.8.2 in c:\users\naman\downloads\rvu\hinglish smart writing assistant\.venv\lib\site-packages (from pandas<3,>=1.4.0->streamlit==1.51.0->-r requirements.txt (line 1)) (4.0.0)
+
+Requirement already satisfied: pytz>=2020.1 in c:\users\naman\downloads\rvu\hinglish smart writing assistant\.venv\lib\site-packages (from pandas<3,>=1.4.0->streamlit==1.51.0->-r requirements.txt (line 1)) (2026.6)
+
+Requirement already satisfied: tzdata>=2022.7 in c:\users\naman\downloads\rvu\hinglish smart writing assistant\.venv\lib\site-packages (from pandas<3,>=1.4.0->streamlit==1.51.0->-r requirements.txt (line 1)) (2026.6)
+
+Requirement already satisfied: MarkupSafe>=2.0 in c:\users\naman\downloads\rvu\hinglish smart writing assistant\.venv\lib\site-packages (from jinja2->torch==2.5.1->-r requirements-models.txt (line 2)) (3.0.4)
+
+Collecting morfessor (from indic-nlp-library-itt->indictranstoolkit==1.1.1->-r requirements-models.txt (line 8))
+
+  Obtaining dependency information for morfessor from https://files.pythonhosted.org/packages/39/e6/7afea30be2ee4d29ce9de0fa53acbb033163615f849515c0b1956ad074ee/Morfessor-2.0.6-py3-none-any.whl.metadata
+
+  Using cached Morfessor-2.0.6-py3-none-any.whl.metadata (628 bytes)
+
+Collecting sphinx-argparse (from indic-nlp-library-itt->indictranstoolkit==1.1.1->-r requirements-models.txt (line 8))
+
+  Obtaining dependency information for sphinx-argparse from https://files.pythonhosted.org/packages/cb/2a/6f4b73c1086822852eb9a2a905cfe377daafa7ab2c3196d8854dc99d1616/sphinx_argparse-0.6.1-py3-none-any.whl.metadata
+
+  Using cached sphinx_argparse-0.6.1-py3-none-any.whl.metadata (3.7 kB)
+
+Collecting sphinx-rtd-theme (from indic-nlp-library-itt->indictranstoolkit==1.1.1->-r requirements-models.txt (line 8))
+
+  Obtaining dependency information for sphinx-rtd-theme from https://files.pythonhosted.org/packages/87/c7/b5c8015d823bfda1a346adb2c634a2101d50bb75d421eb6dcb31acd25ebc/sphinx_rtd_theme-3.1.0-py2.py3-none-any.whl.metadata
+
+  Using cached sphinx_rtd_theme-3.1.0-py2.py3-none-any.whl.metadata (4.5 kB)
+
+Collecting joblib>=1.2.0 (from sacremoses->indictranstoolkit==1.1.1->-r requirements-models.txt (line 8))
+
+  Obtaining dependency information for joblib>=1.2.0 from https://files.pythonhosted.org/packages/18/53/84099323c2ec4be98d935f63c033ac4151ee83836ca1050ede3b3aadf155/joblib-1.6.0-py3-none-any.whl.metadata
+
+  Using cached joblib-1.6.0-py3-none-any.whl.metadata (6.5 kB)
+
+Requirement already satisfied: smmap<6,>=3.0.1 in c:\users\naman\downloads\rvu\hinglish smart writing assistant\.venv\lib\site-packages (from gitdb<5,>=4.0.1->gitpython!=3.1.19,<4,>=3.0.7->streamlit==1.51.0->-r requirements.txt (line 1)) (5.0.3)
+
+Collecting cloudpickle>=3.0 (from joblib>=1.2.0->sacremoses->indictranstoolkit==1.1.1->-r requirements-models.txt (line 8))
+
+  Obtaining dependency information for cloudpickle>=3.0 from https://files.pythonhosted.org/packages/88/39/799be3f2f0f38cc727ee3b4f1445fe6d5e4133064ec2e4115069418a5bb6/cloudpickle-3.1.2-py3-none-any.whl.metadata
+
+  Using cached cloudpickle-3.1.2-py3-none-any.whl.metadata (7.1 kB)
+
+Requirement already satisfied: attrs>=22.2.0 in c:\users\naman\downloads\rvu\hinglish smart writing assistant\.venv\lib\site-packages (from jsonschema>=3.0->altair!=5.4.0,!=5.4.1,<6,>=4.0->streamlit==1.51.0->-r requirements.txt (line 1)) (26.1.0)
+
+Requirement already satisfied: jsonschema-specifications>=2023.03.6 in c:\users\naman\downloads\rvu\hinglish smart writing assistant\.venv\lib\site-packages (from jsonschema>=3.0->altair!=5.4.0,!=5.4.1,<6,>=4.0->streamlit==1.51.0->-r requirements.txt (line 1)) (2025.9.1)
+
+Requirement already satisfied: referencing>=0.28.4 in c:\users\naman\downloads\rvu\hinglish smart writing assistant\.venv\lib\site-packages (from jsonschema>=3.0->altair!=5.4.0,!=5.4.1,<6,>=4.0->streamlit==1.51.0->-r requirements.txt (line 1)) (0.37.0)
+
+Requirement already satisfied: rpds-py>=0.25.0 in c:\users\naman\downloads\rvu\hinglish smart writing assistant\.venv\lib\site-packages (from jsonschema>=3.0->altair!=5.4.0,!=5.4.1,<6,>=4.0->streamlit==1.51.0->-r requirements.txt (line 1)) (2026.9.1)
+
+Collecting sphinx>=5.1.0 (from sphinx-argparse->indic-nlp-library-itt->indictranstoolkit==1.1.1->-r requirements-models.txt (line 8))
+
+  Obtaining dependency information for sphinx>=5.1.0 from https://files.pythonhosted.org/packages/c6/3f/4bbd76424c393caead2e1eb89777f575dee5c8653e2d4b6afd7a564f5974/sphinx-9.0.4-py3-none-any.whl.metadata
+
+  Using cached sphinx-9.0.4-py3-none-any.whl.metadata (5.8 kB)
+
+Collecting docutils>=0.19 (from sphinx-argparse->indic-nlp-library-itt->indictranstoolkit==1.1.1->-r requirements-models.txt (line 8))
+
+  Obtaining dependency information for docutils>=0.19 from https://files.pythonhosted.org/packages/32/91/30151a39f7570f448ed84529390628a651d7f27c87d73c9b887f8189695e/docutils-0.23-py3-none-any.whl.metadata
+
+  Using cached docutils-0.23-py3-none-any.whl.metadata (15 kB)
+
+  Obtaining dependency information for docutils>=0.19 from https://files.pythonhosted.org/packages/02/10/5da547df7a391dcde17f59520a231527b8571e6f46fc8efb02ccb370ab12/docutils-0.22.4-py3-none-any.whl.metadata
+
+  Using cached docutils-0.22.4-py3-none-any.whl.metadata (15 kB)
+
+Collecting sphinxcontrib-jquery<5,>=4 (from sphinx-rtd-theme->indic-nlp-library-itt->indictranstoolkit==1.1.1->-r requirements-models.txt (line 8))
+
+  Obtaining dependency information for sphinxcontrib-jquery<5,>=4 from https://files.pythonhosted.org/packages/76/85/749bd22d1a68db7291c89e2ebca53f4306c3f205853cf31e9de279034c3c/sphinxcontrib_jquery-4.1-py2.py3-none-any.whl.metadata
+
+  Using cached sphinxcontrib_jquery-4.1-py2.py3-none-any.whl.metadata (2.6 kB)
+
+Collecting sphinxcontrib-applehelp>=1.0.7 (from sphinx>=5.1.0->sphinx-argparse->indic-nlp-library-itt->indictranstoolkit==1.1.1->-r requirements-models.txt (line 8))
+
+  Obtaining dependency information for sphinxcontrib-applehelp>=1.0.7 from https://files.pythonhosted.org/packages/5d/85/9ebeae2f76e9e77b952f4b274c27238156eae7979c5421fba91a28f4970d/sphinxcontrib_applehelp-2.0.0-py3-none-any.whl.metadata
+
+  Using cached sphinxcontrib_applehelp-2.0.0-py3-none-any.whl.metadata (2.3 kB)
+
+Collecting sphinxcontrib-devhelp>=1.0.6 (from sphinx>=5.1.0->sphinx-argparse->indic-nlp-library-itt->indictranstoolkit==1.1.1->-r requirements-models.txt (line 8))
+
+  Obtaining dependency information for sphinxcontrib-devhelp>=1.0.6 from https://files.pythonhosted.org/packages/35/7a/987e583882f985fe4d7323774889ec58049171828b58c2217e7f79cdf44e/sphinxcontrib_devhelp-2.0.0-py3-none-any.whl.metadata
+
+  Using cached sphinxcontrib_devhelp-2.0.0-py3-none-any.whl.metadata (2.3 kB)
+
+Collecting sphinxcontrib-htmlhelp>=2.0.6 (from sphinx>=5.1.0->sphinx-argparse->indic-nlp-library-itt->indictranstoolkit==1.1.1->-r requirements-models.txt (line 8))
+
+  Obtaining dependency information for sphinxcontrib-htmlhelp>=2.0.6 from https://files.pythonhosted.org/packages/0a/7b/18a8c0bcec9182c05a0b3ec2a776bba4ead82750a55ff798e8d406dae604/sphinxcontrib_htmlhelp-2.1.0-py3-none-any.whl.metadata
+
+  Using cached sphinxcontrib_htmlhelp-2.1.0-py3-none-any.whl.metadata (2.3 kB)
+
+Collecting sphinxcontrib-jsmath>=1.0.1 (from sphinx>=5.1.0->sphinx-argparse->indic-nlp-library-itt->indictranstoolkit==1.1.1->-r requirements-models.txt (line 8))
+
+  Obtaining dependency information for sphinxcontrib-jsmath>=1.0.1 from https://files.pythonhosted.org/packages/da/c2/2965c35b39587d4b7a397f65a9c7d4b942b031061e7ac1ce91782f394a0d/sphinxcontrib_jsmath-2.0.0-py3-none-any.whl.metadata
+
+  Using cached sphinxcontrib_jsmath-2.0.0-py3-none-any.whl.metadata (2.6 kB)
+
+Collecting sphinxcontrib-qthelp>=1.0.6 (from sphinx>=5.1.0->sphinx-argparse->indic-nlp-library-itt->indictranstoolkit==1.1.1->-r requirements-models.txt (line 8))
+
+  Obtaining dependency information for sphinxcontrib-qthelp>=1.0.6 from https://files.pythonhosted.org/packages/27/83/859ecdd180cacc13b1f7e857abf8582a64552ea7a061057a6c716e790fce/sphinxcontrib_qthelp-2.0.0-py3-none-any.whl.metadata
+
+  Using cached sphinxcontrib_qthelp-2.0.0-py3-none-any.whl.metadata (2.3 kB)
+
+Collecting sphinxcontrib-serializinghtml>=1.1.9 (from sphinx>=5.1.0->sphinx-argparse->indic-nlp-library-itt->indictranstoolkit==1.1.1->-r requirements-models.txt (line 8))
+
+  Obtaining dependency information for sphinxcontrib-serializinghtml>=1.1.9 from https://files.pythonhosted.org/packages/52/a7/d2782e4e3f77c8450f727ba74a8f12756d5ba823d81b941f1b04da9d033a/sphinxcontrib_serializinghtml-2.0.0-py3-none-any.whl.metadata
+
+  Using cached sphinxcontrib_serializinghtml-2.0.0-py3-none-any.whl.metadata (2.4 kB)
+
+Collecting snowballstemmer>=2.2 (from sphinx>=5.1.0->sphinx-argparse->indic-nlp-library-itt->indictranstoolkit==1.1.1->-r requirements-models.txt (line 8))
+
+  Obtaining dependency information for snowballstemmer>=2.2 from https://files.pythonhosted.org/packages/4c/07/2ebca9b11fb9be7340a818d8d6f63feaebb146be2c4afbd6061701d6df6e/snowballstemmer-3.1.1-py3-none-any.whl.metadata
+
+  Using cached snowballstemmer-3.1.1-py3-none-any.whl.metadata (7.9 kB)
+
+Collecting babel>=2.13 (from sphinx>=5.1.0->sphinx-argparse->indic-nlp-library-itt->indictranstoolkit==1.1.1->-r requirements-models.txt (line 8))
+
+  Obtaining dependency information for babel>=2.13 from https://files.pythonhosted.org/packages/77/f5/21d2de20e8b8b0408f0681956ca2c69f1320a3848ac50e6e7f39c6159675/babel-2.18.0-py3-none-any.whl.metadata
+
+  Using cached babel-2.18.0-py3-none-any.whl.metadata (2.2 kB)
+
+Collecting alabaster>=0.7.14 (from sphinx>=5.1.0->sphinx-argparse->indic-nlp-library-itt->indictranstoolkit==1.1.1->-r requirements-models.txt (line 8))
+
+  Obtaining dependency information for alabaster>=0.7.14 from https://files.pythonhosted.org/packages/7e/b3/6b4067be973ae96ba0d615946e314c5ae35f9f993eca561b356540bb0c2b/alabaster-1.0.0-py3-none-any.whl.metadata
+
+  Using cached alabaster-1.0.0-py3-none-any.whl.metadata (2.8 kB)
+
+Collecting imagesize>=1.3 (from sphinx>=5.1.0->sphinx-argparse->indic-nlp-library-itt->indictranstoolkit==1.1.1->-r requirements-models.txt (line 8))
+
+  Obtaining dependency information for imagesize>=1.3 from https://files.pythonhosted.org/packages/01/f9/575c8d760eae1fc99651b7cc5efd96ad5379ca4d6b53750b0fb4fe983f34/imagesize-2.0.1-py3-none-any.whl.metadata
+
+  Using cached imagesize-2.0.1-py3-none-any.whl.metadata (7.0 kB)
+
+Collecting roman-numerals>=1.0.0 (from sphinx>=5.1.0->sphinx-argparse->indic-nlp-library-itt->indictranstoolkit==1.1.1->-r requirements-models.txt (line 8))
+
+  Obtaining dependency information for roman-numerals>=1.0.0 from https://files.pythonhosted.org/packages/04/54/6f679c435d28e0a568d8e8a7c0a93a09010818634c3c3907fc98d8983770/roman_numerals-4.1.0-py3-none-any.whl.metadata
+
+  Using cached roman_numerals-4.1.0-py3-none-any.whl.metadata (3.3 kB)
+
+Using cached torch-2.5.1-cp311-cp311-win_amd64.whl (203.1 MB)
+
+Using cached transformers-4.49.0-py3-none-any.whl (10.0 MB)
+
+Using cached accelerate-1.6.0-py3-none-any.whl (354 kB)
+
+Using cached sentencepiece-0.2.0-cp311-cp311-win_amd64.whl (991 kB)
+
+Using cached protobuf-5.29.4-cp310-abi3-win_amd64.whl (434 kB)
+
+Using cached einops-0.8.1-py3-none-any.whl (64 kB)
+
+Using cached sympy-1.13.1-py3-none-any.whl (6.2 MB)
+
+Using cached huggingface_hub-0.36.2-py3-none-any.whl (566 kB)
+
+Using cached fsspec-2026.9.0-py3-none-any.whl (221 kB)
+
+Using cached pyyaml-6.0.3-cp311-cp311-win_amd64.whl (158 kB)
+
+Using cached safetensors-0.8.0-cp310-abi3-win_amd64.whl (355 kB)
+
+Using cached tokenizers-0.21.4-cp39-abi3-win_amd64.whl (2.5 MB)
+
+Using cached tqdm-4.70.1-py3-none-any.whl (80 kB)
+
+Using cached cython-3.3.1-cp311-cp311-win_amd64.whl (2.9 MB)
+
+Using cached filelock-4.2.9-py3-none-any.whl (164 kB)
+
+Using cached indic_nlp_library_itt-0.1.1-py3-none-any.whl (53 kB)
+
+Using cached networkx-3.6.1-py3-none-any.whl (2.1 MB)
+
+Using cached sacremoses-0.2.0-py3-none-any.whl (867 kB)
+
+Using cached joblib-1.6.0-py3-none-any.whl (306 kB)
+
+Using cached mpmath-1.3.0-py3-none-any.whl (536 kB)
+
+Using cached Morfessor-2.0.6-py3-none-any.whl (35 kB)
+
+Using cached sphinx_argparse-0.6.1-py3-none-any.whl (18 kB)
+
+Using cached sphinx_rtd_theme-3.1.0-py2.py3-none-any.whl (7.7 MB)
+
+Using cached cloudpickle-3.1.2-py3-none-any.whl (22 kB)
+
+Using cached docutils-0.22.4-py3-none-any.whl (633 kB)
+
+Using cached sphinx-9.0.4-py3-none-any.whl (3.9 MB)
+
+Using cached sphinxcontrib_jquery-4.1-py2.py3-none-any.whl (121 kB)
+
+Using cached alabaster-1.0.0-py3-none-any.whl (13 kB)
+
+Using cached babel-2.18.0-py3-none-any.whl (10.2 MB)
+
+Using cached imagesize-2.0.1-py3-none-any.whl (14 kB)
+
+Using cached roman_numerals-4.1.0-py3-none-any.whl (7.7 kB)
+
+Using cached snowballstemmer-3.1.1-py3-none-any.whl (104 kB)
+
+Using cached sphinxcontrib_applehelp-2.0.0-py3-none-any.whl (119 kB)
+
+Using cached sphinxcontrib_devhelp-2.0.0-py3-none-any.whl (82 kB)
+
+Using cached sphinxcontrib_htmlhelp-2.1.0-py3-none-any.whl (98 kB)
+
+Using cached sphinxcontrib_jsmath-2.0.0-py3-none-any.whl (78 kB)
+
+Using cached sphinxcontrib_qthelp-2.0.0-py3-none-any.whl (88 kB)
+
+Using cached sphinxcontrib_serializinghtml-2.0.0-py3-none-any.whl (92 kB)
+
+Would install Cython-3.3.1 Morfessor-2.0.6 PyYAML-6.0.3 Sphinx-9.0.4 accelerate-1.6.0 alabaster-1.0.0 babel-2.18.0 cloudpickle-3.1.2 docutils-0.22.4 einops-0.8.1 filelock-4.2.9 fsspec-2026.9.0 huggingface_hub-0.36.2 imagesize-2.0.1 indic-nlp-library-itt-0.1.1 indictranstoolkit-1.1.1 joblib-1.6.0 mpmath-1.3.0 networkx-3.6.1 protobuf-5.29.4 roman-numerals-4.1.0 sacremoses-0.2.0 safetensors-0.8.0 sentencepiece-0.2.0 snowballstemmer-3.1.1 sphinx-argparse-0.6.1 sphinx_rtd_theme-3.1.0 sphinxcontrib-applehelp-2.0.0 sphinxcontrib-devhelp-2.0.0 sphinxcontrib-htmlhelp-2.1.0 sphinxcontrib-jquery-4.1 sphinxcontrib-jsmath-2.0.0 sphinxcontrib-qthelp-2.0.0 sphinxcontrib-serializinghtml-2.0.0 sympy-1.13.1 tokenizers-0.21.4 torch-2.5.1 tqdm-4.70.1 transformers-4.49.0
