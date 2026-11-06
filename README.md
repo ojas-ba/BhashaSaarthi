@@ -1,5 +1,11 @@
 # Hinglish Smart Writing Assistant
 
+**Name:** Ojas B A
+
+**USN:** 1RVU23CSE321
+
+**Repository:** [Mini-Project-WLLM](https://github.com/ojas-ba/Mini-Project-WLLM)
+
 CS3235 undergraduate mini-project: Roman Hindi → Devanagari, bounded contextual rewriting with BharatGen Param1, and Hindi → English with IndicTrans2. Pretrained inference only; no training, speech, OCR, RAG, accounts or database.
 
 **Verification status (updated 6 November 2026):** the UI, real IndicXlit inference and **real IndicTrans2 translation through the local WSL worker are verified**, including the translation button. Model access and source inspection are complete for the pinned translation checkpoint. Param1's real tokenizer/chat template loads; pretrained Param1 generation remains blocked by available RAM. The original 50-case basic run completed 35 cases (34 scored generated results plus one Hindi passthrough). See `reports/verification.md` and `reports/translation_worker_verification.json`. Production adapters contain no mocked responses. Full three-model assessment remains incomplete while Param1 generation is unavailable.
@@ -154,7 +160,7 @@ Next improvements after access is resolved: human-review the references, measure
 2. 0:40–1:30: Run `mujhe kal college jana hai`; inspect IndicXlit candidates, ambiguity warning and context output. Compare “जाना है” modality against the source. If blocked, show the actual error, not an invented answer.
 3. 1:30–2:20: Try `maine assignment submit nahi kiya`, retaining English in Natural Hinglish; inspect negation. Contrast Natural Hindi only if Param1 is operational.
 4. 2:20–3:10: Enter Hindi and run Formal improvement. Check for added reasons/promises and certainty changes. Translate the selected result when access is available.
-5. 3:10–4:00: Use the Naman/date and email examples; inspect exact protected spans. Show copy, JSON export and reset.
+5. 3:10–4:00: Use a name/date example and an email example; inspect exact protected spans. Show copy, JSON export and reset.
 6. 4:00–4:40: Show actual evaluation denominators, unreviewed references, human-review rubric and recorded failures. Distinguish unit tests from real integration evidence.
 
 ## Assessment mapping
@@ -169,19 +175,13 @@ Next improvements after access is resolved: human-review the references, measure
 | Meaningful automated verification | `tests/`, Streamlit AppTest, integration probe |
 | Reproducibility and repository quality | pinned model SHAs, UI lock, setup docs, `.gitignore` |
 
-## GitHub preparation
+## GitHub repository
 
-No remote is created and nothing is published. After reviewing files and ensuring reports contain only public examples:
+Project repository: [ojas-ba/Mini-Project-WLLM](https://github.com/ojas-ba/Mini-Project-WLLM).
 
 ```powershell
-git init
-git add .
-git status --short
-git commit -m "Implement Hinglish writing assistant with explicit model verification"
-git branch -M main
-# Create your own empty GitHub repository, then:
-git remote add origin https://github.com/YOUR_USERNAME/hinglish-smart-writing-assistant.git
-git push -u origin main
+git clone https://github.com/ojas-ba/Mini-Project-WLLM.git
+cd Mini-Project-WLLM
 ```
 
 Never add `.env`, model weights, caches, virtual environments, authentication files or private inputs. Inspect `git diff --cached` before committing. Model and dataset licenses remain separate from application code.
